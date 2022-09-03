@@ -1,0 +1,10 @@
+html{
+    font-size: 62.5%;
+    --green_dillard-color :rgb(48, 59, 46);  
+    --gray-body           :#EBECF0;
+    --section-right-color : #EFEBE0;
+}
+.body{
+    font-size: 10px;
+    background-color: var(--gray-body);
+}
