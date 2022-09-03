@@ -27,11 +27,7 @@ html{
     height: 100%;
     background-color: var(--section-left-color);
 }
-.section__title__container{
-    margin-top: 35rem;
-    margin-right: rem;
-   
-}
+
 .nav{
     margin-top: 34rem;
     margin-left: 7rem;
@@ -78,12 +74,35 @@ transition: font-size 0.8s ease 0.1s;
 
 .figure{
     width: 50%;
-    margin-top: 15%;
+    margin-top: 10%;
+
    
    
 }
 
 .img{
     width: 100%;
+    min-width: 210px;
     
+}
+@media (max-width :768px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+.section__left{
+    width: 100%;
+}
+.section__right{
+    width:100% ;
+}
+
+.nav{
+    margin-top: 3rem;
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 }
